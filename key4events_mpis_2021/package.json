@@ -1,0 +1,16 @@
+{
+  "name": "simple_website_frontend",
+  "version": "1.0.0",
+  "description": "Development structure for simple website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://stickitz@bitbucket.org/stickitz/key4events_mpis_2021-event-website.git"
+  },
+  "author": "Hugo Brionne Yo Studio_",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/stickitz/key4events_mpis_2021-event-website#readme"
+}
