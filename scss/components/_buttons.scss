@@ -1,0 +1,12 @@
+.btn-light{
+    &:hover{
+        background-color: $red !important;
+        border-color: $red !important;
+        color: white !important;
+    }
+}
+
+a.btn{
+    text-transform: uppercase;
+    padding: $spacer*1 $spacer*3;
+}

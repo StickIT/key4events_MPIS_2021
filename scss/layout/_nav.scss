@@ -1,0 +1,32 @@
+body{
+    &::before{
+        content: "";
+        display: block;
+        height: 4rem;
+    }
+    .navbar{
+        font-weight: 600;
+        font-size: $font-size-sm;
+        .navbar-brand{
+            img{
+                height: 30px;
+                width: auto;
+                @include xs {
+                    height: 22px;
+                }
+            }
+        }
+        ul.navbar-nav{
+            @include lg{
+                padding: $spacer 0;
+            }
+        }
+        a.btn{
+            font-weight: 600;
+            font-size: $font-size-sm;
+            padding: $spacer*0.5 $spacer*1;
+            
+
+        }
+    }
+}

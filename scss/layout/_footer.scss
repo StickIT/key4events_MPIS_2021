@@ -1,0 +1,62 @@
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: $spacer;
+  font-size: $font-size-sm;
+  @include xl {
+    padding: $spacer*2 $spacer;
+    }
+  .label {
+    display: inline-bloc;
+    float: left;
+    img {
+      height: 22px;
+      width: auto;
+    }
+    span {
+        color: $gray;
+        &:nth-child(2){
+            color: white;
+            padding: $spacer/3;
+        }
+    }
+    @include xl {
+        float: inherit;
+        text-align: center;
+        padding-bottom: $spacer;
+    }
+  }
+  .link {
+    display: inline-bloc;
+    align-self: flex-end;
+    float: right;
+    > a {
+        color: white;
+        text-decoration: inherit;
+        &:hover{
+            opacity: .75;
+        }
+        &:nth-child(1):after,
+        &:nth-child(2):after{
+            content:"|";
+            color: $gray;
+            padding: $spacer/3;
+        }
+    }
+    span {
+        color: $gray;
+        a{
+            color: white;
+            text-decoration: inherit;
+            &:hover{
+                opacity: .75;
+            }
+        }
+    }
+    @include xl {
+        float: inherit;
+        text-align: center;
+    }
+  }
+}

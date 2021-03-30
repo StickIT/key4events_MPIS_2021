@@ -1,0 +1,25 @@
+$red:                          #B8171B;
+$green:                        #0E7681;
+$gray:                         #888888;
+
+$primary:                        $red;
+$secondary:                      $green;                               
+
+$border-radius:                  none;
+
+$font-family-base:               Raleway, sans-serif;
+
+$font-size-base:                 1rem;
+$font-size-xs:                   $font-size-base * .75;
+$font-size-sm:                   $font-size-base * .875;
+$font-size-lg:                   $font-size-base * 1.25;
+
+$navbar-toggler-focus-width:     0;
+$navbar-padding-y:               1rem;
+
+$breakpoint-xs:               460px;
+$breakpoint-md:                  767px;
+$breakpoint-lg:                  992px;
+$breakpoint-xl:                  1200px;
+
+$spacer:                         1rem;

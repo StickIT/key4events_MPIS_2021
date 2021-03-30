@@ -1,0 +1,158 @@
+body {
+  &#home {
+    main {
+      section {
+        &.sponsor {
+          .sponsor_logo {
+            .row {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              .logo {
+                display: flex;
+                padding: 0 $spacer * 1.5;
+                @include md {
+                  padding: $spacer * 1.5;
+                }
+                img {
+                  margin: auto;
+                }
+                &:nth-child(2) {
+                  img {
+                    // max-height: 120px;
+                  }
+                }
+              }
+              &.row-2 {
+                .logo {
+                  padding: 0 $spacer * 2.5;
+                  @include md {
+                    padding: $spacer * 1.5;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.concept {
+          .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .concept_logo {
+              margin-top: $spacer * 6;
+              margin-bottom: $spacer * 3;
+              img {
+                max-width: 100%;
+              }
+            }
+            .concept_tagline {
+              margin-bottom: $spacer * 3;
+              h1 {
+              }
+            }
+            .concept_text {
+              max-width: 690px;
+              text-align: justify;
+              margin-bottom: $spacer * 2;
+              p,
+              ul {
+                margin-bottom: $spacer * 2;
+                &:nth-child(2) {
+                  margin-bottom: $spacer;
+                }
+              }
+              li {
+                margin-bottom: $spacer;
+              }
+            }
+            .concept_video {
+              max-width: 720px;
+              display: block;
+              width: 100%;
+              margin-bottom: $spacer * 3;
+              .concept_video_frame {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                padding-top: 56.25%;
+                .responsive-iframe {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  bottom: 0;
+                  right: 0;
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+            a.concept_btn {
+              border-width: $spacer;
+              border-color: white;
+              text-transform: uppercase;
+              padding: $spacer * 1 $spacer * 3;
+              transform: translateY(50%);
+              &:hover {
+                border-color: white !important;
+              }
+            }
+          }
+        }
+        &.speakers {
+          margin-top: $spacer * 8;
+          text-align: center;
+          h2 {
+            font-weight: bold;
+            margin-bottom: $spacer * 3;
+          }
+          .speakers_content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            .speaker_card {
+              width: 33%;
+              padding: $spacer * 2;
+              display: inline-block;
+
+              @include lg {
+                width: 49%;
+              }
+              @include md {
+                width: 100%;
+              }
+
+              @include speaker_card;
+            }
+          }
+          a.speakers_btn {
+            margin: auto;
+            display: inline-block;
+            margin-top: $spacer * 4;
+            margin-bottom: $spacer * 6;
+          }
+        }
+        &.contact {
+            display: block;
+            position: relative;
+          h2 {
+            font-size: $font-size-base * 1.5;
+            margin-bottom: $spacer*1.5;
+            padding-top: $spacer * 3;
+          }
+          .contact_content {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center; 
+            padding-bottom: $spacer*1.5; 
+
+            @include contact_card;
+          }
+        }
+      }
+    }
+  }
+}
