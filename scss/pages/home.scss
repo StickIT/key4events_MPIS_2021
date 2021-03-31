@@ -91,7 +91,6 @@ body {
               border-width: $spacer;
               border-color: white;
               text-transform: uppercase;
-              padding: $spacer * 1 $spacer * 3;
               transform: translateY(50%);
               &:hover {
                 border-color: white !important;
@@ -116,6 +115,7 @@ body {
               width: 33%;
               padding: $spacer * 2;
               display: inline-block;
+              margin: 0;
 
               @include lg {
                 width: 49%;

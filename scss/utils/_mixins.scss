@@ -10,6 +10,12 @@
     }
 }
 
+@mixin sm {
+    @media (max-width: $breakpoint-sm){
+        @content;
+    }
+}
+
 @mixin lg {
     @media (max-width: $breakpoint-lg){
         @content;
@@ -19,5 +25,48 @@
 @mixin xl {
     @media (max-width: $breakpoint-xl){
         @content;
+    }
+}
+
+@mixin xxl {
+    @media (max-width: $breakpoint-xxl){
+        @content;
+    }
+}
+
+@mixin responsive($sizemedia)  {
+    @media (min-width: $sizemedia){
+        @content;
+    }
+}
+
+@mixin responsive-image($url_media)  {
+    background-image: url(#{$url_media}1440w.jpg);
+    @media (max-width: 480px){
+        background-image: url(#{$url_media}1080w.jpg);
+    }
+    @media (min-width: 481px) and (max-width: 720px){
+        background-image: url(#{$url_media}1080w.jpg);
+    }
+    @media (min-width: 721px) and (max-width: 1080px){
+        background-image: url(#{$url_media}1080w.jpg);
+    }
+    @media (min-width: 1081px) and (max-width: 1366px){
+        background-image: url(#{$url_media}1366w.jpg);
+    }
+    @media (min-width: 1367px) and (max-width: 1440px){
+        background-image: url(#{$url_media}1440w.jpg);
+    }
+    @media (min-width: 1441px) and (max-width: 1920px){
+        background-image: url(#{$url_media}1920w.jpg);
+    }
+    @media (min-width: 1921px) and (max-width: 2560px){
+        background-image: url(#{$url_media}2560w.jpg);
+    }
+    @media (min-width: 1921px) and (max-width: 2560px) and (min-resolution: 144dpi){
+        background-image: url(#{$url_media}3840w.jpg);
+    }
+    @media (min-width: 2561px){
+        background-image: url(#{$url_media}3840w.jpg);
     }
 }

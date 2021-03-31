@@ -1,0 +1,104 @@
+header{
+    @include responsive-image("/public/images/header-image-grimaldiforum");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    div.content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: $spacer*6 0;
+        max-height: 75vh;
+        transform: translateX(-12.5%);
+        @include xxl{
+            img{
+                max-width: 50% !important;
+            }
+        }
+        @include lg{
+            transform: translateX(0);
+            img{
+                max-width: 50% !important;
+            }
+            p{
+                margin-top: 0 !important;
+                margin-bottom: $spacer !important;
+            }
+            a.btn{
+                padding: $spacer/2 $spacer;
+            }
+        }
+        @include md{
+            transform: translateX(0);
+            img{
+                max-width: 60% !important;
+            }
+            p{
+                margin-top: 0 !important;
+                margin-bottom: $spacer !important;
+            }
+            a.btn{
+                padding: $spacer/2 $spacer;
+            }
+        }
+        @include sm {
+            transform: translateX(0);
+            padding: $spacer*2 0;
+           
+            p{
+                margin-top: 0 !important;
+                margin-bottom: $spacer !important;
+            }
+            a.btn{
+                padding: $spacer/2 $spacer;
+            }
+        }
+        @include xs{
+            transform: translateX(0);
+            padding: $spacer*2 0;
+            img{
+                width: 90% !important;
+                max-width: 90% !important;
+            }
+            p{
+                margin-top: 0 !important;
+                margin-bottom: $spacer !important;
+            }
+            a.btn{
+                padding: $spacer/2 $spacer;
+            }
+        }
+        img{
+            max-width: 40%;
+        }
+        p{
+            font-weight: 500;
+            font-style: italic;
+            font-variant-numeric: lining-nums;
+            text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: $spacer*2.5;
+            margin-top: $spacer*.5;
+            span{
+                font-size: .85em;
+            }
+            sup{
+                font-size: .5em;
+                padding-left: .25em;
+            }
+        }
+        a{
+            padding: $spacer $spacer*3;
+            font-size: $font-size-base;
+            font-weight: 600;
+            border-width: 2px;
+            &:hover{
+                background-color: white;
+                color: $primary;
+            }
+        }
+    }
+}

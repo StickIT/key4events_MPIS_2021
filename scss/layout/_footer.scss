@@ -4,7 +4,7 @@ footer {
   flex-direction: row;
   padding: $spacer;
   font-size: $font-size-sm;
-  @include xl {
+  @include xxl {
     padding: $spacer*2 $spacer;
     }
   .label {
@@ -21,7 +21,7 @@ footer {
             padding: $spacer/3;
         }
     }
-    @include xl {
+    @include xxl {
         float: inherit;
         text-align: center;
         padding-bottom: $spacer;
@@ -54,7 +54,7 @@ footer {
             }
         }
     }
-    @include xl {
+    @include xxl {
         float: inherit;
         text-align: center;
     }
