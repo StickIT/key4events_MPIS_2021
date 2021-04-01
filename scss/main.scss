@@ -12,11 +12,19 @@
 @import "./components/buttons";
 @import "./components/speaker";
 @import"./components/contact";
+@import"./components/sub_nav";
 
 @import "./layout/header";
 @import "./layout/nav";
 @import "./layout/footer";
+@import "./layout/speakers";
+@import "./layout/contact";
+@import "./layout/sponsor";
 
 @import "./pages/home.scss";
+@import "./pages/speakers_focus.scss";
+@import "./pages/moderators_focus.scss";
+@import "./pages/parteners.scss";
+@import "./pages/help.scss";
 
 @import "../node_modules/bootstrap/scss/bootstrap";

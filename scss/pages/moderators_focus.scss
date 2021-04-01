@@ -1,0 +1,13 @@
+#speakers_focus.moderators-edit {
+  section.sub_nav {
+    background-color: $secondary;
+  }
+  figure.speaker_card {
+    img {
+      border-color: $secondary;
+    }
+  }
+  .talk_list .table-responsive .table thead {
+    background-color: $secondary;
+  }
+}

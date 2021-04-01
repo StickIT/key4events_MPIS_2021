@@ -1,0 +1,32 @@
+.parteners {
+    padding-top: $spacer * 6;
+    text-align: center;
+    h1 {
+      font-weight: bold;
+      margin-bottom: $spacer * 6;
+    }
+    .parteners_content{
+        .logo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: $spacer*8;
+            img{
+                padding-bottom: $spacer*3;
+                @include sm {
+                    max-width: 85%;
+                }
+            }
+            a{
+                &:hover{
+                    background-color: $secondary !important;
+                    border-color: $secondary !important;
+                }
+                @include sm {
+                    font-size: 14px;
+                    padding: $spacer;
+                }
+            }
+        }
+    }
+}

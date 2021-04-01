@@ -2,17 +2,21 @@ header{
     @include responsive-image("/public/images/header-image-grimaldiforum");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 75% 100%;
+    background-position: 65% 100%;
     background-attachment: fixed;
     width: 100%;
     position: relative;
+    @include xs {
+        background-attachment: inherit;
+        background-position: 30% 100%;
+    }
     div.content{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: $spacer*6 0;
-        max-height: 75vh;
+        height: 70vh;
         transform: translateX(-12.5%);
         @include xxl{
             img{
@@ -21,6 +25,7 @@ header{
         }
         @include lg{
             transform: translateX(0);
+            height: 75vh;
             img{
                 max-width: 50% !important;
             }
@@ -34,6 +39,7 @@ header{
         }
         @include md{
             transform: translateX(0);
+            height: 75vh;
             img{
                 max-width: 60% !important;
             }
@@ -48,6 +54,7 @@ header{
         @include sm {
             transform: translateX(0);
             padding: $spacer*2 0;
+            height: 75vh;
            
             p{
                 margin-top: 0 !important;
@@ -60,6 +67,7 @@ header{
         @include xs{
             transform: translateX(0);
             padding: $spacer*2 0;
+            height: 50vh;
             img{
                 width: 90% !important;
                 max-width: 90% !important;
@@ -73,7 +81,7 @@ header{
             }
         }
         img{
-            max-width: 40%;
+            max-width: 45%;
         }
         p{
             font-weight: 500;

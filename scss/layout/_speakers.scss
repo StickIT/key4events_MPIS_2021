@@ -1,0 +1,44 @@
+.speakers {
+  padding-top: $spacer * 6;
+  text-align: center;
+  h2 {
+    font-weight: bold;
+    margin-bottom: $spacer * 3;
+  }
+  .speakers_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: $spacer * 6;
+
+    @include speaker_card;
+
+    .speaker_card {
+      width: 33%;
+      padding: $spacer * 2;
+      display: inline-block;
+      margin: 0;
+
+      @include lg {
+        width: 49%;
+      }
+      @include md {
+        width: 100%;
+      }
+    }
+  }
+  a.btn {
+    margin-top: $spacer * 3;
+  }
+  &.moderators {
+    background-color: $gray-light;
+    .speakers_content {
+      .speaker_card {
+        a, img {
+          border-color: $secondary;
+        }
+      }
+    }
+  }
+}

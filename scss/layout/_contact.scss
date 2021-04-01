@@ -1,0 +1,18 @@
+.contact {
+  display: block;
+  position: relative;
+  h2 {
+    font-size: $font-size-base * 1.5;
+    margin-bottom: $spacer * 1.5;
+    padding-top: $spacer * 3;
+  }
+  .contact_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: $spacer * 1.5;
+
+    @include contact_card;
+  }
+}

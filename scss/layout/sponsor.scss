@@ -1,0 +1,32 @@
+section.sponsor {
+    .sponsor_logo {
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+          display: flex;
+          padding: 0 $spacer * 1.5;
+          @include md {
+            padding: $spacer * 1.5;
+          }
+          img {
+            margin: auto;
+          }
+          &:nth-child(2) {
+            img {
+              // max-height: 120px;
+            }
+          }
+        }
+        &.row-2 {
+          .logo {
+            padding: 0 $spacer * 2.5;
+            @include md {
+              padding: $spacer * 1.5;
+            }
+          }
+        }
+      }
+    }
+  }

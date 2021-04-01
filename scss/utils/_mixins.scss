@@ -46,16 +46,16 @@
         background-image: url(#{$url_media}1080w.jpg);
     }
     @media (min-width: 481px) and (max-width: 720px){
-        background-image: url(#{$url_media}1080w.jpg);
+        background-image: url(#{$url_media}1440w.jpg);
     }
     @media (min-width: 721px) and (max-width: 1080px){
-        background-image: url(#{$url_media}1080w.jpg);
+        background-image: url(#{$url_media}1920w.jpg);
     }
     @media (min-width: 1081px) and (max-width: 1366px){
         background-image: url(#{$url_media}1366w.jpg);
     }
     @media (min-width: 1367px) and (max-width: 1440px){
-        background-image: url(#{$url_media}1440w.jpg);
+        background-image: url(#{$url_media}1920w.jpg);
     }
     @media (min-width: 1441px) and (max-width: 1920px){
         background-image: url(#{$url_media}1920w.jpg);

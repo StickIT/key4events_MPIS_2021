@@ -1,0 +1,28 @@
+.help {
+    padding-top: 0;
+    padding-bottom: $spacer * 6;
+    text-align: center;
+    h1 {
+      font-weight: bold;
+      margin-bottom: $spacer * 3;
+      margin-top: $spacer * 6;
+    }
+    .help_content{
+        .accordion{
+            .accordion-item{
+                .accordion-header{
+                    .accordion-button{
+                        &:not(.collapsed){
+                            color: white;
+                            background-color: $primary;
+                        }
+                        &:after{
+                        
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

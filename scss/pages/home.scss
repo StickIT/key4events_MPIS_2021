@@ -2,38 +2,6 @@ body {
   &#home {
     main {
       section {
-        &.sponsor {
-          .sponsor_logo {
-            .row {
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              .logo {
-                display: flex;
-                padding: 0 $spacer * 1.5;
-                @include md {
-                  padding: $spacer * 1.5;
-                }
-                img {
-                  margin: auto;
-                }
-                &:nth-child(2) {
-                  img {
-                    // max-height: 120px;
-                  }
-                }
-              }
-              &.row-2 {
-                .logo {
-                  padding: 0 $spacer * 2.5;
-                  @include md {
-                    padding: $spacer * 1.5;
-                  }
-                }
-              }
-            }
-          }
-        }
         &.concept {
           .container {
             display: flex;
@@ -98,59 +66,16 @@ body {
             }
           }
         }
-        &.speakers {
-          margin-top: $spacer * 8;
-          text-align: center;
-          h2 {
-            font-weight: bold;
-            margin-bottom: $spacer * 3;
-          }
-          .speakers_content {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
+        &.speakers{
+            margin-top: $spacer*4 !important;
+            .speakers_content{
+              padding-bottom: $spacer;
+              
 
-            .speaker_card {
-              width: 33%;
-              padding: $spacer * 2;
-              display: inline-block;
-              margin: 0;
-
-              @include lg {
-                width: 49%;
-              }
-              @include md {
-                width: 100%;
-              }
-
-              @include speaker_card;
             }
-          }
-          a.speakers_btn {
-            margin: auto;
-            display: inline-block;
-            margin-top: $spacer * 4;
-            margin-bottom: $spacer * 6;
-          }
-        }
-        &.contact {
-            display: block;
-            position: relative;
-          h2 {
-            font-size: $font-size-base * 1.5;
-            margin-bottom: $spacer*1.5;
-            padding-top: $spacer * 3;
-          }
-          .contact_content {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center; 
-            padding-bottom: $spacer*1.5; 
-
-            @include contact_card;
-          }
+            a.btn{
+              margin-bottom: $spacer*6;
+            }
         }
       }
     }
