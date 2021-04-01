@@ -1,10 +1,10 @@
 header{
-    @include responsive-image("/public/images/header-image-grimaldiforum");
+    @include responsive-image("./public/images/header-image-grimaldiforum");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 65% 100%;
     background-attachment: fixed;
-    background-color: #052629;
+    background-color: #073135;
     width: 100%;
     position: relative;
     @include xs {
