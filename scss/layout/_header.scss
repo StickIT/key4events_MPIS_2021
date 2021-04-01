@@ -1,5 +1,5 @@
 header{
-    @include responsive-image("./public/images/header-image-grimaldiforum");
+    @include responsive-image("/public/images/header-image-grimaldiforum");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 65% 100%;

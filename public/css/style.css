@@ -98,7 +98,7 @@ section.sub_nav .container a:nth-child(1) img {
 }
 
 header {
-  background-image: url(./public/images/header-image-grimaldiforum1440w.jpg);
+  background-image: url(/public/images/header-image-grimaldiforum1440w.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 65% 100%;
@@ -109,47 +109,47 @@ header {
 }
 @media (max-width: 480px) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum1080w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum1080w.jpg);
   }
 }
 @media (min-width: 481px) and (max-width: 720px) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum1440w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum1440w.jpg);
   }
 }
 @media (min-width: 721px) and (max-width: 1080px) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum1920w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum1920w.jpg);
   }
 }
 @media (min-width: 1081px) and (max-width: 1366px) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum1366w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum1366w.jpg);
   }
 }
 @media (min-width: 1367px) and (max-width: 1440px) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum1920w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum1920w.jpg);
   }
 }
 @media (min-width: 1441px) and (max-width: 1920px) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum1920w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum1920w.jpg);
   }
 }
 @media (min-width: 1921px) and (max-width: 2560px) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum2560w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum2560w.jpg);
   }
 }
 @media (min-width: 1921px) and (max-width: 2560px) and (min-resolution: 144dpi) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum3840w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum3840w.jpg);
   }
 }
 @media (min-width: 2561px) {
   header {
-    background-image: url(./public/images/header-image-grimaldiforum3840w.jpg);
+    background-image: url(/public/images/header-image-grimaldiforum3840w.jpg);
   }
 }
 @media (max-width: 460px) {
@@ -307,7 +307,7 @@ footer {
   }
 }
 footer .label {
-  display: inline-bloc;
+  display: inline-block;
   float: left;
 }
 footer .label img {
@@ -518,7 +518,7 @@ body#home main section.concept .container .concept_logo {
 body#home main section.concept .container .concept_logo img {
   max-width: 100%;
 }
-body#home main section.concept .container .concept_tagline {
+body#home main section.concept .container h1, body#home main section.concept .container .h1 {
   margin-bottom: 3rem;
 }
 body#home main section.concept .container .concept_text {
