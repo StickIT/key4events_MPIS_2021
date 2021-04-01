@@ -329,7 +329,7 @@ footer .label span:nth-child(2) {
   }
 }
 footer .link {
-  display: inline-bloc;
+  display: inline-block;
   align-self: flex-end;
   float: right;
 }
