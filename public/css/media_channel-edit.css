@@ -1,0 +1,46 @@
+:root{
+    --red: #B8171B;
+    --green: #0E7681;
+    --gray: #EBEBEB;
+    --gray-light: #F3F3F3;
+}
+
+.frontoffice #zone-contenu-sidebar .video-liste-info-chaines{
+ 
+}
+
+.frontoffice #zone-contenu-sidebar.fullwidth h1.sidebar-titre{
+    background-color: var(--gray-light);
+    padding: .5rem 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.frontoffice #zone-contenu-sidebar.fullwidth #video-liste-info-chaines{
+    flex: 0 0 100%;
+}
+
+.frontoffice #zone-contenu-sidebar.fullwidth #video-liste-info-chaines .channel-change{
+    margin-left: .5rem;
+}
+
+.frontoffice #zone-contenu-principale{
+    padding-left: 2rem;
+}
+
+.frontoffice #zone-contenu-principale .sidebar-titre{
+    font-weight: 400;
+    color: black;
+}
+
+.frontoffice #zone-contenu-principale .card-group>.card{
+    padding: 1rem 1rem;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.1);
+}
+ 
+.frontoffice #zone-contenu-principale .card-body a:hover strong, .frontoffice #zone-contenu-principale .card-body a:hover{
+   text-decoration: none !important;
+   color: var(--red) !important;
+}

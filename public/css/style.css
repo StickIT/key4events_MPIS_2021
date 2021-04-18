@@ -373,7 +373,7 @@ footer .link span a:hover {
 .speakers .speakers_content {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   padding-bottom: 6rem;
 }
@@ -723,6 +723,159 @@ body#home main section.speakers a.btn {
   color: white;
   background-color: #B8171B;
 }
+#chat_rooms main section#sponsors_chat_rooms {
+  padding-top: 6rem;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid, #chat_rooms main section#sponsors_chat_rooms .container-xxl, #chat_rooms main section#sponsors_chat_rooms .container-xl, #chat_rooms main section#sponsors_chat_rooms .container-lg, #chat_rooms main section#sponsors_chat_rooms .container-md, #chat_rooms main section#sponsors_chat_rooms .container-sm {
+  padding-left: inherit;
+  padding-right: inherit;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid h1, #chat_rooms main section#sponsors_chat_rooms .container-xxl h1, #chat_rooms main section#sponsors_chat_rooms .container-xl h1, #chat_rooms main section#sponsors_chat_rooms .container-lg h1, #chat_rooms main section#sponsors_chat_rooms .container-md h1, #chat_rooms main section#sponsors_chat_rooms .container-sm h1, #chat_rooms main section#sponsors_chat_rooms .container-fluid .h1, #chat_rooms main section#sponsors_chat_rooms .container-xxl .h1, #chat_rooms main section#sponsors_chat_rooms .container-xl .h1, #chat_rooms main section#sponsors_chat_rooms .container-lg .h1, #chat_rooms main section#sponsors_chat_rooms .container-md .h1, #chat_rooms main section#sponsors_chat_rooms .container-sm .h1 {
+  font-weight: bold;
+  margin-bottom: 6rem;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area h2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area h2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area h2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area h2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area h2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area h2, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .h2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .h2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .h2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .h2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .h2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .h2 {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -2px;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container img.image_room {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  max-width: 680px;
+  width: 90%;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .text-content, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .text-content, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .text-content, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .text-content, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .text-content, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .text-content {
+  text-align: justify;
+  max-width: 800px;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .text-content h3, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .text-content h3, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .text-content h3, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .text-content h3, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .text-content h3, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .text-content h3, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .text-content .h3, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .text-content .h3, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .text-content .h3, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .text-content .h3, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .text-content .h3, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .text-content .h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .text-content p a, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .text-content p a, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .text-content p a, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .text-content p a, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .text-content p a, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .text-content p a {
+  font-weight: bold;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container h3.title_mod, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container h3.title_mod, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container h3.title_mod, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container h3.title_mod, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container h3.title_mod, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container h3.title_mod, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .title_mod.h3, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .title_mod.h3, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .title_mod.h3, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .title_mod.h3, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .title_mod.h3, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .title_mod.h3 {
+  font-weight: bold;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4rem;
+  width: 100%;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content .speaker_card {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content .speaker_card .mask, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content .speaker_card .mask, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content .speaker_card .mask, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content .speaker_card .mask, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content .speaker_card .mask, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content .speaker_card .mask {
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content .speaker_card img, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content .speaker_card img, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content .speaker_card img, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content .speaker_card img, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content .speaker_card img, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content .speaker_card img {
+  margin-bottom: 0;
+  border: solid;
+  border-radius: 50%;
+  border-width: 8px;
+  border-color: #B8171B;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content figcaption, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content figcaption, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content figcaption, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content figcaption, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content figcaption, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content figcaption {
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content figcaption h3, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content figcaption h3, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content figcaption h3, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content figcaption h3, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content figcaption h3, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content figcaption h3, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content figcaption .h3, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content figcaption .h3, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content figcaption .h3, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content figcaption .h3, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content figcaption .h3, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content figcaption .h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content figcaption h4, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content figcaption h4, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content figcaption h4, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content figcaption h4, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content figcaption h4, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content figcaption h4, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content figcaption .h4, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content figcaption .h4, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content figcaption .h4, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content figcaption .h4, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content figcaption .h4, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content figcaption .h4 {
+  font-size: 1rem;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content .speaker_card {
+  width: 33%;
+  padding: 2rem;
+  display: inline-block;
+  margin: 0;
+}
+@media (max-width: 992px) {
+  #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content .speaker_card {
+    width: 49%;
+  }
+}
+@media (max-width: 767px) {
+  #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content .speaker_card, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content .speaker_card {
+    width: 100%;
+  }
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content.moderators .speaker_card a,
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area .container .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area .container .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area .container .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area .container .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area .container .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area .container .speakers_content.moderators .speaker_card img {
+  border-color: #0E7681;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_1, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_1, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_1, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_1, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_1, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_1 {
+  border: solid 0.3rem #0E7681;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_1 h2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_1 h2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_1 h2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_1 h2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_1 h2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_1 h2, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_1 .h2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_1 .h2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_1 .h2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_1 .h2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_1 .h2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_1 .h2 {
+  background-color: #0E7681;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_2 {
+  border: solid 0.3rem #B8171B;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_2 h2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_2 h2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_2 h2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_2 h2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_2 h2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_2 h2, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_2 .h2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_2 .h2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_2 .h2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_2 .h2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_2 .h2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_2 .h2 {
+  background-color: #B8171B;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_2 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_2 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_2 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_2 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_2 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_2 .speakers_content.moderators .speaker_card a,
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_2 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_2 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_2 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_2 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_2 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_2 .speakers_content.moderators .speaker_card img {
+  border-color: #B8171B;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_3, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_3, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_3, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_3, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_3, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_3 {
+  border: solid 0.3rem #888888;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_3 h2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_3 h2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_3 h2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_3 h2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_3 h2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_3 h2, #chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_3 .h2, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_3 .h2, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_3 .h2, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_3 .h2, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_3 .h2, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_3 .h2 {
+  background-color: #888888;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_3 img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_3 img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_3 img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_3 img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_3 img.image_room, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_3 img.image_room {
+  max-width: 500px;
+}
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_3 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_3 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_3 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_3 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_3 .speakers_content.moderators .speaker_card a, #chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_3 .speakers_content.moderators .speaker_card a,
+#chat_rooms main section#sponsors_chat_rooms .container-fluid .chat_room_area.room_3 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-xxl .chat_room_area.room_3 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-xl .chat_room_area.room_3 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-lg .chat_room_area.room_3 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-md .chat_room_area.room_3 .speakers_content.moderators .speaker_card img,
+#chat_rooms main section#sponsors_chat_rooms .container-sm .chat_room_area.room_3 .speakers_content.moderators .speaker_card img {
+  border-color: #888888;
+}
+
 /*!
  * Bootstrap v5.0.0-beta3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

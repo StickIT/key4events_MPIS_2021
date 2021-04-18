@@ -1,0 +1,21 @@
+.frontoffice #zone-contenu-principale{
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.frontoffice #zone-contenu-sidebar{
+    display: none;
+}
+
+.frontoffice #zone-contenu-principale h1{
+    font-size: 1.75rem;
+    line-height: 1.25;
+    margin-bottom: 0 !important;
+}
+
+.frontoffice #zone-contenu-principale > div.mt-2{
+    font-size: 1rem;
+    margin-top: .25rem !important;
+    margin-bottom: 1.5rem;
+}

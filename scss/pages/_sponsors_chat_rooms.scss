@@ -1,0 +1,132 @@
+#chat_rooms {
+  main {
+    section {
+      &#sponsors_chat_rooms {
+        padding-top: $spacer * 6;
+        .container-fluid{
+          padding-left: inherit;
+          padding-right: inherit;
+          h1 {
+            font-weight: bold;
+            margin-bottom: $spacer * 6;
+          }
+          .chat_room_area {
+            h2{
+              color: white;
+              text-align: center;
+              padding: 1rem;
+              font-weight: bold;
+              margin-left: -2px;
+              margin-right: -2px;
+              margin-top: -2px;
+            }
+            .container{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              img.image_room{
+                padding-top: $spacer * 6;
+                padding-bottom: $spacer * 5;
+                max-width: 680px;
+                width: 90%;
+              }
+              .text-content{
+                text-align: justify;
+                max-width: 800px;
+                padding-bottom: $spacer * 4;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                h3{
+                  text-align: center;
+                  margin-bottom: $spacer * 2;
+                }
+                p{
+                  a{
+                    font-weight: bold;
+                  }
+                }
+              }
+              h3.title_mod{
+                font-weight: bold;
+              }
+              .speakers_content {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: $spacer * 4;
+                width: 100%;
+    
+                @include speaker_card;
+    
+                .speaker_card {
+                  width: 33%;
+                  padding: $spacer * 2;
+                  display: inline-block;
+                  margin: 0;
+    
+                  @include lg {
+                    width: 49%;
+                  }
+                  @include md {
+                    width: 100%;
+                  }
+                }
+    
+                &.moderators {
+                  .speaker_card {
+                    a,
+                    img {
+                      border-color: $secondary;
+                    }
+                  }
+                }
+              }
+            }
+            &.room_1{
+              border: solid .3rem $secondary;
+              h2{
+                background-color: $secondary;
+              }
+            }
+            &.room_2{
+              border: solid .3rem $primary;
+              h2{
+                background-color: $primary;
+              }
+              .speakers_content{
+                &.moderators {
+                  .speaker_card {
+                    a,
+                    img {
+                      border-color: $primary;
+                    }
+                  }
+                }
+              }
+            }
+            &.room_3{
+              border: solid .3rem $gray;
+              h2{
+                background-color: $gray;
+              }
+              img.image_room{
+                max-width: 500px;
+              }
+              .speakers_content{
+                &.moderators {
+                  .speaker_card {
+                    a,
+                    img {
+                      border-color: $gray;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
